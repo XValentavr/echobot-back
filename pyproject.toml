@@ -1,0 +1,11 @@
+[project]
+name = "echobot-back"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "pydantic>=2.11.4",
+    "sqlmodel>=0.0.24",
+    "uvicorn>=0.34.2",
+]
