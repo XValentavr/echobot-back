@@ -10,4 +10,4 @@ class ChatResponse(SQLModel, table=False):
 
 
 class BaseResponse(ChatRequest):
-    status: str
+    status: int
